@@ -65,7 +65,7 @@ export const StealthVersion = (): JSX.Element => {
       <div className="bg-white overflow-hidden w-full max-w-[1280px] relative px-4 md:px-8 lg:px-12">
         {/* Header/Navigation */}
         <header className="flex flex-col md:flex-row justify-between items-center pt-8 gap-4">
-          <img className="w-[77px] h-6" alt="I.AM Logo" src="/group-3349.png" />
+          <img className="w-[77px] h-6" alt="I.AM Logo" src="/assets/images/group-3349.png" />
 
           <nav className="flex items-center gap-4 md:gap-8 overflow-x-auto w-full md:w-auto">
             {navItems.map((item, index) => (
@@ -166,27 +166,25 @@ export const StealthVersion = (): JSX.Element => {
               <img
                 className="w-full h-full object-cover"
                 alt="Authentication illustration"
-                src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&q=80&w=2000&h=1000"
+                src="/assets/images/collage 1.png"
               />
               <img
                 className="absolute right-[-330px] top-0 w-[330px] h-[528px] hidden md:block"
                 alt="Authentication illustration"
-                src="/rectangle-305.svg"
+                src="/assets/svg/rectangle-305.svg"
               />
             </div>
             <div className="w-[85vw] md:w-[878px] h-[300px] md:h-[528px] bg-[#d2d3d8] rounded-[25px] md:rounded-[50px] relative overflow-hidden flex-shrink-0 snap-center">
               <img
                 className="w-full h-full object-cover"
                 alt="Authentication illustration"
-                src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=2000&h=1000"
-              />
+                src="/assets/images/collage 2.png"              />
             </div>
             <div className="w-[85vw] md:w-[878px] h-[300px] md:h-[528px] bg-[#d2d3d8] rounded-[25px] md:rounded-[50px] relative overflow-hidden flex-shrink-0 snap-center">
               <img
                 className="w-full h-full object-cover"
                 alt="Authentication illustration"
-                src="https://images.unsplash.com/photo-1496096265110-f83ad7f96608?auto=format&fit=crop&q=80&w=2000&h=1000"
-              />
+                src="/assets/images/collage 3.png"              />
             </div>
           </div>
         </div>
@@ -238,12 +236,12 @@ export const StealthVersion = (): JSX.Element => {
               ))}
             </div>
           </div>
-
+ 
           <div className="mt-8 lg:mt-0 lg:ml-[85px] w-full lg:w-[711px] h-[300px] md:h-[528px] bg-[#f2ead4] rounded-[25px] md:rounded-[50px] relative overflow-hidden">
             <img
               className="absolute w-full md:w-[640px] h-full object-cover"
               alt="Platform interface"
-              src="/homepage-1---organization-page-1.png"
+              src="/assets/images/homepage-1---organization-page-1.png"
             />
           </div>
         </section>
@@ -342,7 +340,7 @@ export const StealthVersion = (): JSX.Element => {
                 <img
                   className="w-[77px] h-6"
                   alt="I.AM Logo"
-                  src="/group-3350.png"
+                  src="/assets/images/group-3350.png"
                 />
                 <span className="[font-family:'Montserrat',Helvetica] font-bold text-[#191a1f] text-sm md:text-base">
                   Rise of true passwordless.
